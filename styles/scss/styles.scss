@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: montserrat;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 100px;
+  font-family: Barrio;
+}
+
+#titulo {
+  font-family: barrio;
+  color: #E4003B;
+}
+
+#articles {
+  margin-left: 46px;
+  margin-top: 80px;
+  font-family: barrio;
+  color: #E4003B;
+  font-size: 60px;
+}
+
+#verano {
+  margin:auto;
+      margin-top: 89px;
+  font-size: 80px;
+  color: white;
+  text-align: center;
+}
+
+.bg-1 {
+  background: white;
+}
+
+
+
+
+
+.slider-posicion {
+  margin-top: 70px;
+    margin-left: 145px;
+    margin-bottom: 120px;
+}
+
+.contacto {
+  background-image: url("../../contacto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+      height: 650px;
+}
+
+.cuadro {
+  background: rgba(120,117,117,0.6);
+  margin-left: 210px;
+    margin-top: 93px;
+    width: 700px;
+    height: 500px;
+    h3 {
+      color: black;
+      font-size: 40px;
+      padding: 20px;
+    }
+    form {
+      margin-left: 25px;
+    }
+    input {
+          margin-bottom: 15px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+.cuadro {
+  margin-left: 9px;
+width: 608px;
+}
+textarea {
+  width: 500px;
+}
+.slider-posicion {
+  margin-left: 1px;
+}
+}
+
+.cuadro2 {
+  background-image: url("../../descuento.jpg");
+margin-right: 20px;
+margin-top: 93px;
+width: 259px;
+height: 200px;
+
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+.cuadro2 {
+  display: none;
+}
+}
+
+footer {
+  height: 58px;
+  background: #262626;
+  display: flex;
+  margin: 0;
+}
+
+.footer-text {
+  margin: auto;
+      color: gray;
+      font-size: 10px;
+}
+
+#privacy {
+  text-align: center;
+}
